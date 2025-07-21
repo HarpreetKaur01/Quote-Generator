@@ -1,4 +1,4 @@
-console.log('https://api.allorigins.win/get?url=' + encodeURIComponent('https://zenquotes.io/api/random'););
+console.log( 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://zenquotes.io/api/random'));
 
 const API = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://zenquotes.io/api/random');
 
