@@ -1,6 +1,6 @@
-console.log('https://api.quotable.io/random');
+console.log('https://zenquotes.io/api/random');
 
-const API = 'https://api.quotable.io/random';
+const API = 'https://zenquotes.io/api/random';
 
 const generateButton = document.getElementById('generate-button');
 const quote = document.getElementById('quote');
