@@ -1,6 +1,6 @@
-console.log('https://zenquotes.io/api/random');
+console.log('https://api.allorigins.win/get?url=' + encodeURIComponent('https://zenquotes.io/api/random'););
 
-const API = 'https://zenquotes.io/api/random';
+const API = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://zenquotes.io/api/random');
 
 const generateButton = document.getElementById('generate-button');
 const quote = document.getElementById('quote');
