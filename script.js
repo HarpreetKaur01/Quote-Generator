@@ -11,8 +11,8 @@ async function getRandomQuote()
 {
 	const response = await fetch(API);
 	const data = await response.json();
-	quote.innerHTML = data[0].q;
-	author.innerHTML = `— ${data[0].a}`;
+	quote.innerHTML = data.quote;
+	author.innerHTML = data.author;
 
 } 
 getRandomQuote()
